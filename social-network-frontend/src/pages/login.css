@@ -1,0 +1,19 @@
+/* Assure-toi que le conteneur de la card est en position relative */
+
+  
+  /* Pseudo-élément pour l'effet de glow */
+  .card-login .ant-card::before {
+    pointer-events: none;
+    content: "";
+    position: absolute;
+    top: 60%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--glow-spread-color, #1890ff); 
+    filter: blur(4em);
+    opacity: 0.7;
+    transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+ 
+  }
+  

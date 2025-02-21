@@ -1,0 +1,43 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Logs
+logs/
+*.log
+
+# Environment variables
+.env
+
+# Build output
+dist/
+build/
+
+# Dependency directories
+social-network-backend/node_modules/
+social-network-frontend/node_modules/
+
+# Production
+social-network-backend/dist/
+social-network-frontend/dist/
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Specific files
+social-network-backend/config/config.json
+social-network-backend/uploads/
+social-network-backend/logs/
